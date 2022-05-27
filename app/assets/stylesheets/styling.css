@@ -1,0 +1,236 @@
+.mainpage{
+    text-align: center;
+    padding:20px;
+    height:100vh;
+    background-size: cover;
+    
+  
+}
+.lgnbtn{
+    padding:15px;
+    margin:10px;
+    background-color: blue;
+    height:50px;
+    width:100px;
+    font-size: 10px;
+    color: #ffffff;
+}
+.loginbtn{
+  background-color: blueviolet;
+  height:30px;
+  width:250px;
+  
+  color:#ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+  border:0px;
+}
+.logincard{
+  
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left:450px;
+  margin-top: 20px;
+
+}
+.indexcard{
+  
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left:450px;
+  margin-top: 20px;
+  margin-top: 150px;
+}
+
+.hdng{
+  padding:20px;
+  color:rgb(15, 15, 13);
+}
+
+body {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(61, 158, 161));
+  background-size: cover;
+}
+
+.lpcontainer{
+  height:150px;
+  width:150px;
+  color:white;
+  background-color: rgb(27, 27, 95);
+  display:flex;
+  direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0px;
+
+}
+.graphcontainer{
+  width: 1050px;
+  height:350px;
+  background-color: aquamarine;
+  margin-left:30px;
+  margin-top: 10px;
+}
+.attbutton{
+  width: 1050px;
+  height:30px;
+  background-color: white;
+  margin-left:30px;
+  
+}
+.attbutton1{
+  width:40vw;
+  height:30px;
+  background-color: white;
+  margin-left:30px;
+
+}
+.twocontainer{
+  height:200px;
+  width:40vw;
+  background-color: aquamarine;
+  margin-left:30px;
+  margin-top: 10px;
+}
+
+.logincontainerleft{
+  height:100vh;
+  width:50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.logincontainerright{
+  height:100vh;
+  width:50vw;
+  background-color: #89d1d6;
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+}
+.loginimage{
+  height: 200px;
+  width: 200px;
+  margin-top: 50px;
+  margin-left: 18vw;
+}
+.para{
+  font-size: 18px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.attnumcontainer{
+  height:200px;
+  width:1050px;
+  background-color: rgb(226, 229, 228);
+  margin-left:30px;
+  margin-top: 10px;
+
+}
+
+.leavecontainer{
+  height:400px;
+  width:1050px;
+  background-color: rgb(226, 229, 228);
+  margin-left:30px;
+  margin-top: 10px;
+}
+
+.formmaincont{
+  display: flex;
+  flex-direction: row;
+}
+.formbottomcont{
+  margin-left: 111px;
+}
+
+.leavetext{
+  background-color: rgb(149, 235, 238);
+  height:40px;
+  width: 150px;
+  margin-left: 150px;
+  margin-top: 150px;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+}
+.navibutton{
+  background-color: gray;
+  margin-right: 15px;
+  border-radius: 80px;
+  border-style: none;
+  height: 40px;
+  width: 40px;
+}
+.dropdown-menu {
+  margin-left: -150px !important;
+}
+.navprofname{
+  margin-left: -150px !important;
+}
+
+.index{
+  background-image: url('https://thumbs.dreamstime.com/b/hand-carrying-businessman-icon-network-hr-hrm-mlm-teamwork-leadership-concept-79024534.jpg');
+  height: 250px;
+  width:400px;
+  background-size: cover;
+  margin-left: 400px;
+  margin-top: 50px;
+     
+}
+
+.att-container{
+  height:280px;
+  width:450px;
+  background-color: rgb(226, 229, 228);
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.att-heading{
+  height:38px;
+  width:450px;
+  background-color: rgb(42, 85, 163);
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.att-signin{
+  margin-top:100px;
+  margin-left:160px;
+  align-items: center;
+}
+
+.hm{
+  margin-left: 50px;
+}
+.detail-cont{
+  margin-left: 100px;
+  background-color: rgb(18, 51, 51);
+  padding:20px;
+  color: antiquewhite;
+  margin-top: 50px;
+}

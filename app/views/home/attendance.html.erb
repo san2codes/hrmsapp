@@ -1,0 +1,30 @@
+<div class="d-flex flex-row">
+<%= render "home/options" %>
+        <div class="d-flex flex-column">
+        <div class="d-flex flex-row">
+            <div class="att-container">
+                <h5 class="att-heading">Attendance</h5>
+                <button class="btn btn-success att-signin">Sign in</button>
+            </div>
+
+            <div class="att-container">
+                <h5 class="att-heading">Last Week Details</h5>
+            </div>
+        </div>
+
+        <div class="d-flex flex-row">
+            <div class="att-container">
+                <h5 class="att-heading">Pie Chart</h5>
+                <%= pie_chart [["present", 7], ["absent", 3],["holidays", 4], ["leaves", 5]], height:"220px",width:"400px"%>
+
+
+            </div>
+
+            <div class="att-container">
+                <h5 class="att-heading">Some Data</h5>
+            </div>
+        </div>
+        </div>
+
+
+</div>

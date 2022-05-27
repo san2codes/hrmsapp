@@ -1,0 +1,42 @@
+
+        <h1>Add Project</h1>
+        <%= form_with model:@projectmanagement do  |f| %>
+        <div class="field">
+            <%= f.label :project_name %><br />
+            <%= f.text_field :project_name , autofocus: true, autocomplete: "project_name" %>
+        </div>
+
+        <div class="field">
+            <%= f.label :client %><br />
+            <%= f.text_field :client, autofocus: true, autocomplete: "client" %>
+        </div>
+
+        <div class="field">
+            <%= f.label :manager_id %><br />
+            <%= f.text_field :manager_id, autofocus: true, autocomplete: "manager_id" %>
+        </div>
+
+        <div class="field">
+            <%= f.label :description %><br />
+            <%= f.text_field :description, autofocus: true, autocomplete: "description" %>
+        </div>
+
+        <div class="field">
+            <%= f.label :client_time_zone  %><br />
+            <%= f.text_field :client_time_zone, autofocus: true, autocomplete: "client_time_zone" %>
+        </div>
+
+        <div class="field">
+            <%= f.label :shift_information %><br />
+            <%= f.text_field :shift_information, autofocus: true, autocomplete: "shift_information" %>
+        </div>
+
+        <div class="field">
+            <%= f.label :project_type %><br />
+            <%= f.text_field :project_type, autofocus: true, autocomplete: "project_type" %>
+        </div>
+
+        <div class="actions">
+        <%= f.submit "Save",class:"loginbtn mt-3" %>
+        </div>
+        <% end %>
