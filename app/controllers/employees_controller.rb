@@ -44,6 +44,7 @@ class EmployeesController < ApplicationController
     end
 
     def index
-        @employees = Employee.all
+        @q = Employee.ransack(params[:q])
+        @employees = @q.result(distinct: true).page(params[:page])
     end    
 end

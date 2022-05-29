@@ -38,10 +38,10 @@
       </table>
 
 
-<div>
-<%= link_to "ADD DESIGNATION", new_designation_path, class: "btn btn-primary hm", data: { turbo_frame: "remote_modal" }%>
 
-</div>
+<%= button_to "ADD DESIGNATION", new_designation_path,method: :get, class:"loginbtn hm", data: { turbo_frame: "remote_modal" }%>
+
+
 </div>
 
 </div>

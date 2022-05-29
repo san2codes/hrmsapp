@@ -1,4 +1,5 @@
 class Employee < ApplicationRecord
+  paginates_per 2
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,

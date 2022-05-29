@@ -20,6 +20,8 @@ gem "chartkick"
 gem "groupdate"
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
+gem "kaminari"
+gem "ransack"
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
